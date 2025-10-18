@@ -1,0 +1,17 @@
+# Ignorar carpetas de caché de Python
+__pycache__/
+
+# Ignorar carpetas de entornos virtuales de Python
+venv/
+*.venv
+env/
+.env
+
+# Ignorar el archivo de la base de datos de SQLite
+# ¡IMPORTANTE! Nunca se suben bases de datos a un repositorio público.
+*.db
+*.db-journal
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
